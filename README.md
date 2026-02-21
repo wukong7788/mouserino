@@ -23,7 +23,6 @@ A minimal macOS Logitech Options alternative prototype built with SwiftUI.
 ## Run (Development)
 
 ```bash
-cd MouserinoApp
 swift run
 ```
 
@@ -32,7 +31,6 @@ swift run
 To build a standalone macOS application and a distributable installer, simply run the included packaging script:
 
 ```bash
-cd MouserinoApp
 bash build_app.sh
 ```
 
