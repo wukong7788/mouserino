@@ -1,4 +1,5 @@
 # Mouserino (MX Master 3)
+**Version: v1.0.0**
 
 A minimal macOS Logitech Options alternative prototype built with SwiftUI.
 
@@ -53,3 +54,13 @@ You can also click `Request Permission` in the app.
 
 - This is intentionally minimal and focused on MX Master 3 side/middle button remap.
 - Thumb wheel and app-specific profiles are not implemented yet.
+
+## Changelog
+
+### [v1.0.0] - 2026-02-21
+- **Initial Release**
+- Core functionality: Global tracking and remapping of MX Master 3 side buttons and middle click.
+- Options included: Mission Control, App Expose, Launchpad, Show Desktop.
+- Integrated smooth scrolling feature.
+- Built-in localized English & Chinese interfaces.
+- Included automated CLI build script `build_app.sh` for generating `.app` bundle and `.dmg` installer.
